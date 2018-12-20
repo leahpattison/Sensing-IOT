@@ -39,3 +39,4 @@ print(devices['item']['album']['artists'][0]['name'])
 print(devices['item']['album']['name'])
 print(devices['item']['duration_ms'])
 print(devices['item']['album']['images'][0])
+
