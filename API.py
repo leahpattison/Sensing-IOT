@@ -22,17 +22,22 @@ def Spotify_API(your_username, scope, client_id, client_secret, redirect_uri):
     # Connvert UNIX time stamp to YMDHMS
     time = devices['timestamp']/1E3
     timedate = datetime.fromtimestamp(int(time)).strftime('%Y-%m-%d %H:%M:%S')
-
+    print(devices)
     name = devices['item']['name'] #song name
     url = devices['item']['external_urls']['spotify'] # song url
     artist = devices['item']['album']['artists'][0]['name'] #artist name
+    artist2 = devices['item']['album']['artists'][0]['uri']
     album = devices['item']['album']['name'] #album name
     duration = devices['item']['duration_ms'] #song duration
     album_image_url = devices['item']['album']['images'][0]['url'] #album image url
     trackplaying = devices['is_playing'] #T/F track is playing
     trackid = devices['item']['uri'] #Spotify track ID
 
-    return [timedate, name, artist, album, duration,album_image_url, url, trackid, trackplaying]
+
+    artists = spotifyObject.artist(artist2)
+    genres = artists['genres']
+    print(genres)
+    return [timedate, name, artist, album, duration,album_image_url, url, trackid, genres[0],trackplaying]
 
 def dark_sky_API(key):
     sheffyT = ("51.505", "-0.196") #Latitude and longitude for sheffield terrace, london
