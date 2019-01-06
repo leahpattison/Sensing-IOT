@@ -37,7 +37,10 @@ def Spotify_API(your_username, scope, client_id, client_secret, redirect_uri):
     artists = spotifyObject.artist(artist2)
     genres = artists['genres']
     print(genres)
-    return [timedate, name, artist, album, duration,album_image_url, url, trackid, genres[0],trackplaying]
+    analysis = spotifyObject.audio_features(trackid)
+    return [timedate, name, artist, album, duration,album_image_url, url, trackid, genres[0],trackplaying, analysis[0]['tempo'],
+            analysis[0]['acousticness'], analysis[0]['liveness'], analysis[0]['danceability'], analysis[0]['speechiness'],
+            analysis[0]['loudness'], analysis[0]['energy'], analysis[0]['instrumentalness']]
 
 def dark_sky_API(key):
     sheffyT = ("51.505", "-0.196") #Latitude and longitude for sheffield terrace, london

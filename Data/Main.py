@@ -25,10 +25,10 @@ try:
     spotifydata = Spotify_API(spotifyCreds['Spotifyusername'], spotifyCreds['Spotifyscope'],
                               spotifyCreds['Spotifyclient_id'], spotifyCreds['Spotifyclient_secret'],
                               spotifyCreds['Spotifyredirect_uri'])
-    print(spotifydata[-1])
-    if spotifydata[-1] == False:
+    print(spotifydata[9])
+    if spotifydata[9] == False:
         print('No track playing')
-    elif spotifydata[-1] == True:
+    elif spotifydata[9] == True:
         doc.worksheet('Spotify').append_row(spotifydata)
         print('Spotify data added')
 except:
