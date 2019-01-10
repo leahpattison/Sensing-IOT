@@ -43,6 +43,7 @@ def Spotify_API(your_username, scope, client_id, client_secret, redirect_uri):
             analysis[0]['loudness'], analysis[0]['energy'], analysis[0]['instrumentalness']]
 
 def dark_sky_API(key):
+
     sheffyT = ("51.505", "-0.196") #Latitude and longitude for sheffield terrace, london
     Dark = "https://api.darksky.net/forecast/{}/{loc[0]:},{loc[1]:}?".format(key, loc=sheffyT)
     weather = get(Dark)
