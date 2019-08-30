@@ -39,12 +39,14 @@ open build/html/index.html
 
 * Information for implementing Spotify API
 
-``` https://developer.spotify.com/documentation/web-api/
+``` bash
+	https://developer.spotify.com/documentation/web-api/
 ```
 
 * Information for implementing Dark Sky API
 
-``` https://darksky.net/dev
+``` bash
+https://darksky.net/dev
 ```
 
 ![LICENSE](CC4.0-BY.jpg)
