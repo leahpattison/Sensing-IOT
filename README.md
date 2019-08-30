@@ -11,7 +11,7 @@
 </h4>
 
 <p align="center">
-	<sub>A project exploring the effect of weather on music taste. </sub>
+	<sub>A project exploring the effect of weather on music taste utilising the Spotify and DarkSky API's. </sub>
 </p>
 <br>
 <p align="center">
@@ -24,7 +24,7 @@
 ## Clone the repository
 
 ```bash
-git clone http://github.com/nebbles/DE3-ROB1-CHESS
+git clone http://github.com/leahpattison/Sensing-IOT
 ```
 
 ## Compiling the documentation offline
@@ -37,16 +37,14 @@ open build/html/index.html
 
 ## Popular source code
 
-* Source code for controlling Franka with Python (uses ROS)
+* Information for implementing Spotify API
 
-```bash
-svn export https://github.com/nebbles/DE3-ROB1-CHESS/trunk/franka/franka_control_ros.py
+``` https://developer.spotify.com/documentation/web-api/
 ```
 
-* Source code for converting between reference frames
+* Information for implementing Dark Sky API
 
-```bash
-svn export https://github.com/nebbles/DE3-ROB1-CHESS/trunk/tools/transform.py
+``` https://darksky.net/dev
 ```
 
 ![LICENSE](CC4.0-BY.jpg)
