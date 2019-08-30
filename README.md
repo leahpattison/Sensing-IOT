@@ -1,5 +1,4 @@
 <h1 align="center">
-	<img width="400" src="docs/source/_static/cover.png" alt="Awesome">
   <br>
   Whatever the Weather
 </h1>
@@ -15,8 +14,6 @@
 </p>
 <br>
 <p align="center">
-	<a href="https://vimeo.com/291377091" >
-	<img width="600" src="vimeo.png" alt="Click to play"></a>
 </h1>
 <br>
 
