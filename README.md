@@ -40,7 +40,7 @@ open build/html/index.html
 * Information for implementing Spotify API
 
 ``` bash
-	https://developer.spotify.com/documentation/web-api/
+https://developer.spotify.com/documentation/web-api/
 ```
 
 * Information for implementing Dark Sky API
