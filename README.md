@@ -10,7 +10,7 @@
 </h4>
 
 <p align="center">
-	<sub>A project exploring the effect of weather on music taste utilising the Spotify and DarkSky API's. </sub>
+	<sub>A project exploring the effect of weather on music taste utilising the Spotify and DarkSky API's. The video uploaded demonstrates how to open and run the application once setup. </sub>
 </p>
 <br>
 <p align="center">
