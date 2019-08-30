@@ -35,7 +35,7 @@ make html
 open build/html/index.html
 ```
 
-## Popular source code
+## References
 
 * Information for implementing Spotify API
 
