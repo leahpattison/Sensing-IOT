@@ -1,3 +1,10 @@
+
+
+"""
+This is the primary file for data collection for the Whatever the Weather Application.
+It utilises the Spotify and Dark Sky API's.
+Completed as part of the 2018 SIOT
+"""
 #!/usr/bin/python3
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
