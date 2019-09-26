@@ -38,7 +38,7 @@ The `Time_Series/` directory the Python data analytics.
 
 **Note**: API keys and credential files have not been committed.
 
-## 2. Application
+## 3. Application
 
 The `Application/` directory contains all files related to the web application created to create a playlist based on the weather in the users current location. This application was created using flask. 
 
