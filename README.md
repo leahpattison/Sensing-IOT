@@ -6,7 +6,7 @@
 <h4 align="center">
   <a>Sensing & IOT Module, Design Engineering, Imperial College London</a>
   <br><br>
-  <img width="80" src="http://readthedocs.org/projects/de3-rob1-chess/badge/?version=latest" alt="Documentation Status">
+  <a href="https://github.com/leahpattison/Sensing-IOT/blob/master/Leah-Pattison-SIOT.pdf">Read the report</a>
 </h4>
 
 <p align="center">
