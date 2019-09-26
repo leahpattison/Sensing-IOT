@@ -17,20 +17,30 @@
 </h1>
 <br>
 
+## 1. Data Collection
 
-## Clone the repository
+The `Data_Collection/` directory contains all scripts and data backups used during part 1 of the coursework. These were loaded onto a Rasberry Pi. 
 
-```bash
-git clone http://github.com/leahpattison/Sensing-IOT
-```
+### File descriptions
 
-## Compiling the documentation offline
+> **API.py** 	    Data collection scripts for collecting data from Spotify and Dark Sky
+> **Analysis.py**   Utility script for analysing any gaps in the data  
+> **Main.py**       Raw data collection script 
 
-```bash
-cd docs/
-make html
-open build/html/index.html
-```
+
+## 2. Data Analysis
+
+The `Time_Series/` directory the Python data analytics.
+
+<p align="center">
+	<a href="https://github.com/leahpattison/Sensing-IOT/blob/master/Time_Series/Time%20Series%20Analysis.ipynb" target="_blank">View the Jupyter Notebook</a>
+</p>
+
+**Note**: API keys and credential files have not been committed.
+
+## 2. Application
+
+The `Application/` directory contains all files related to the web application created to create a playlist based on the weather in the users current location. This application was created using flask. 
 
 ## References
 
