@@ -6,7 +6,7 @@ import ipinfo
 app = Flask(__name__)
 # geo = pygeoip.GeoIP('GeoLiteCity.dat', pygeoip.MEMORY_CACHE)
 def weather():
-    access_token = '2cd79bed5b77a1'
+    access_token = #####
     handler = ipinfo.getHandler(access_token)
     details = handler.getDetails()
     location = details.loc
@@ -34,13 +34,12 @@ def move_forward():
     ah = weather()
     prediction = predictPlay(ah)
     print(type(prediction))
-    lol = "lol"
     cloud = ah[0]
     wind = ah[1]
     temp = round((ah[2]-32)*5/9)
     humidity = ah[3]
     sum = ah[4]
-    return render_template('index.html', cloud=cloud, wind=wind, temp=temp, humidity=humidity, sum=sum , lol=lol, prediction=prediction)
+    return render_template('index.html', cloud=cloud, wind=wind, temp=temp, humidity=humidity, sum=sum ,  prediction=prediction)
 
 @app.route("/test/", methods = ["POST"])
 def get_javascript_data():
